@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>image page</title>
+    <link rel=stylesheet type="text/css" href="style.css">
+</head>
+
+<style>
+:root{background-image: url(images/back.png);}
+</style>
+
+<body>
+<img src=images/1.png alt="Main image" width="500" height="500" class="maini" id="imgi">
+<p style="images/up.png">
+    <!--Top-->
+    <div class="side">
+    <div class="scroll">
+    <div class="images">
+    <!--Side images Import-->
+                <img src=images/1.png alt="Side picture 1" width="250" height="250">
+        <button class="button" type="button" id="myBtn" value="images/1.png" onclick="conv(id)">Image 1</button>
+                        <img src=images/2.png id="img2" alt="Side picture 2" width="250" height="250">
+        <button class="button" type="button" id="myBtn2" value="images/2.png" onclick="conv(id)">Image 2</button>
+                        <img src=images/3.png id="img3" alt="Side picture 3" width="250" height="250">
+        <button class="button" type="button" id="myBtn3" value="images/3.png" onclick="conv(id)">Image 3</button>
+                        <img src=images/4.png id="img4" alt="Side picture 4" width="250" height="250">
+        <button class="button" type="button" id="myBtn4" value="images/4.png" onclick="conv(id)">Image 4</button>
+                        <img src=images/5.png id="img5" alt="Side picture 5" width="250" height="250">
+        <button class="button" type="button" id="myBtn5" value="images/5.png" onclick="conv(id)">Image 5</button>
+                        <img src=images/6.png id="img6" alt="Side picture 6" width="250" height="250">
+        <button class="button" type="button" id="myBtn6" value="images/6.png" onclick="conv(id)">Image 6</button>
+                        <img src=images/7.png id="img7" alt="Side picture 7" width="250" height="250">
+        <button class="button" type="button" id="myBtn7" value="images/7.png" onclick="conv(id)">Image 7</button>
+                        <img src=images/8.png id="img8" alt="Side picture 8" width="250" height="250">
+        <button class="button" type="button" id="myBtn8" value="images/8.png" onclick="conv(id)">Image 8</button>
+                        <img src=images/9.png id="img9" alt="Side picture 9" width="250" height="250">
+        <button class="button" type="button" id="myBtn9" value="images/9.png" onclick="conv(id)">Image 9</button>
+                        <img src=images/10.png id="img10" alt="Side picture 10" width="250" height="250">
+        <button class="button" type="button" id="myBtn10" value="images/10.png" onclick="conv(id)">Image 10</button>
+</div>
+    </div>
+
+</div>
+<script>
+var r = document.querySelector(':root');
+function conv(ap) {
+  var x = document.getElementById(ap).value;
+document.getElementById("imgi").src = x;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+import img1 from images/back.png;
+let h = window.innerHeight;
+*{
+    margin:0
+    padding:0
+}
+.side{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 20;
+    height:100vh;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.button {
+  border: none;
+  color: black;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button {background-color: #008CBA;}
+.maini{display: block;
+margin-left: 300px;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: 10px;}
+.scroll {
+  width: 270px;
+  height: 100vh;
+  overflow-y: scroll;
+}
